@@ -1,6 +1,7 @@
 document.getElementById("superHero").onkeyup = fetchHero;
 var suggestList = document.getElementById("suggestion");
 let id;
+console.log("hello")
 
 async function fetchHero() {
   var input = document.getElementById("superHero").value;
